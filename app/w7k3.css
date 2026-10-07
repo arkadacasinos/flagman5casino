@@ -1,0 +1,204 @@
+/* Flagman Casino landing — own styles only, mangled prefix w7k3, mobile first */
+:root {
+  color-scheme: dark;
+}
+
+html {
+  background: #0d2440;
+}
+
+body {
+  margin: 0;
+  background: #0d2440;
+  color: #f2f5f9;
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+
+.w7k3-q0 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.w7k3-q1 {
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.w7k3-h2b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #123156;
+}
+
+.w7k3-k3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.w7k3-k3 img {
+  border-radius: 6px;
+}
+
+.w7k3-m4 {
+  color: #d9a441;
+  border: 1px solid rgba(217, 164, 65, 0.45);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.w7k3-m5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 1.1rem 0 2rem;
+}
+
+.w7k3-s6 {
+  background: #123156;
+  border-radius: 14px;
+  padding: 1.1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.w7k3-s6 h2 {
+  margin: 0;
+  color: #d9a441;
+  font-size: 1.22rem;
+  line-height: 1.3;
+  text-wrap: balance;
+}
+
+.w7k3-s6 p {
+  margin: 0;
+  color: #aebfd2;
+}
+
+.w7k3-x7 {
+  margin: 0;
+  font-size: clamp(1.45rem, 5.4vw, 2.4rem);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.w7k3-p8 {
+  color: #f2f5f9;
+}
+
+.w7k3-w6 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.w7k3-f9 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.w7k3-i0 {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #0d2440;
+}
+
+.w7k3-c1 {
+  font-size: 0.78rem;
+  color: #aebfd2;
+}
+
+.w7k3-g2 {
+  border-top: 1px solid #123156;
+  padding: 1.4rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.w7k3-g2 h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: #f2f5f9;
+}
+
+.w7k3-t3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.w7k3-a4 {
+  display: inline-block;
+  color: #d9a441;
+  background: #0d2440;
+  border: 1px solid rgba(217, 164, 65, 0.35);
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.w7k3-a4:hover,
+.w7k3-a4:focus-visible {
+  background: #d9a441;
+  color: #0d2440;
+  outline: none;
+}
+
+.w7k3-n5 {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #aebfd2;
+}
+
+@media (min-width: 760px) {
+  .w7k3-q1 {
+    padding: 0 1.5rem;
+  }
+
+  .w7k3-m5 {
+    gap: 1.4rem;
+    padding-top: 1.5rem;
+  }
+
+  .w7k3-s6 {
+    padding: 1.6rem 1.5rem;
+    gap: 0.9rem;
+  }
+
+  .w7k3-s6 h2 {
+    font-size: 1.45rem;
+  }
+
+  .w7k3-v9 {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+}

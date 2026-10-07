@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flagman5casino.vercel.app/sitemap.xml
